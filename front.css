@@ -13,3 +13,8 @@
 .home .content h1, .home .content h3 {
   color: #fff;
 }
+
+.home .content a {
+  color: #fff;
+  font-size: 30pt;
+}
