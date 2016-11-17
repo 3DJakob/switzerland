@@ -10,11 +10,19 @@
 }
 
 .home div.content :first-child {
-  margin-top: 40px;
+  margin-top: 100px;
+}
+
+a {
+  margin-bottom: 100px;
 }
 
 .home div.content:nth-child(2) {
-  background-image: url(../img/map.png);
+  background-image: url(../img/sunset.jpg);
+}
+
+.home div.content:nth-child(3) {
+  background-image: url(../img/flag.jpg);
 }
 
 .home .content h1, .home .content h3 {
@@ -32,6 +40,7 @@
   margin: 20px;
   background-color: rgba(255, 255, 255, 1);
   border-radius: 3px;
+  margin-bottom: 100px;
 }
 
 .home .content .textbox p:first-child {

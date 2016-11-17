@@ -17,10 +17,16 @@ export default StyleSheet.create({
         "justifyContent": "center"
     },
     "home divcontent :first-child": {
-        "marginTop": 40
+        "marginTop": 100
+    },
+    "a": {
+        "marginBottom": 100
     },
     "home divcontent:nth-child(2)": {
-        "backgroundImage": "url(../img/map.png)"
+        "backgroundImage": "url(../img/sunset.jpg)"
+    },
+    "home divcontent:nth-child(3)": {
+        "backgroundImage": "url(../img/flag.jpg)"
     },
     "home content h1": {
         "color": "#fff"
@@ -40,7 +46,7 @@ export default StyleSheet.create({
         "paddingLeft": 20,
         "marginTop": 20,
         "marginRight": 20,
-        "marginBottom": 20,
+        "marginBottom": 100,
         "marginLeft": 20,
         "backgroundColor": "rgba(255, 255, 255, 1)",
         "borderRadius": 3
