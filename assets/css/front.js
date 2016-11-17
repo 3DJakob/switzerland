@@ -16,7 +16,7 @@ export default StyleSheet.create({
         "alignItems": "center",
         "justifyContent": "center"
     },
-    "home divcontent :first-child": {
+    "home divcontent h1": {
         "marginTop": 100
     },
     "a": {
@@ -27,6 +27,9 @@ export default StyleSheet.create({
     },
     "home divcontent:nth-child(3)": {
         "backgroundImage": "url(../img/flag.jpg)"
+    },
+    "home divcontent:nth-child(4)": {
+        "backgroundImage": "url(../img/city.jpg)"
     },
     "home content h1": {
         "color": "#fff"
@@ -50,6 +53,9 @@ export default StyleSheet.create({
         "marginLeft": 20,
         "backgroundColor": "rgba(255, 255, 255, 1)",
         "borderRadius": 3
+    },
+    "home content textbox h3": {
+        "color": "#000"
     },
     "home content textbox p:first-child": {
         "marginTop": 0

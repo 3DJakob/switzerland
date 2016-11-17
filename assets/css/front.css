@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-.home div.content :first-child {
+.home div.content h1 {
   margin-top: 100px;
 }
 
@@ -23,6 +23,10 @@ a {
 
 .home div.content:nth-child(3) {
   background-image: url(../img/flag.jpg);
+}
+
+.home div.content:nth-child(4) {
+  background-image: url(../img/city.jpg);
 }
 
 .home .content h1, .home .content h3 {
@@ -41,6 +45,10 @@ a {
   background-color: rgba(255, 255, 255, 1);
   border-radius: 3px;
   margin-bottom: 100px;
+}
+
+.home .content .textbox h3 {
+  color: #000;
 }
 
 .home .content .textbox p:first-child {
