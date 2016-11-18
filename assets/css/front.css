@@ -1,6 +1,7 @@
 .home div.content {
   background-image: url(../img/mountains.jpg);
   background-size: cover;
+  background-position: center;
   min-height: 100vh;
   min-width: 100vw;
   display: flex;
@@ -27,6 +28,18 @@ a {
 
 .home div.content:nth-child(4) {
   background-image: url(../img/city.jpg);
+}
+
+.home div.content:nth-child(5) {
+  background-image: url(../img/crane.jpg);
+}
+
+.home div.content:nth-child(6) {
+  background-image: url(../img/water.jpg);
+}
+
+.home div.content:nth-child(7) {
+  background-image: url(../img/plane.jpg);
 }
 
 .home .content h1, .home .content h3 {
@@ -57,4 +70,44 @@ a {
 
 .home .content .textbox p:last-child {
   margin-bottom: 0;
+}
+
+.home .content .textbox p.ending {
+  text-align: center;
+}
+
+.home .content .textbox iframe.map {
+  height: 450px;
+  width: 100%;
+}
+
+.home .content .textbox div.collage {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  margin: 40px 0;
+}
+
+.home .content .textbox .collage img {
+  width: 180px;
+  border: 5px solid #fff;
+  box-shadow: 0px 0px 30px #aaa;
+  transform:  rotate(5deg);
+}
+
+.home .content .textbox .collage img:nth-child(2) {
+  transform:  rotate(-8deg);
+}
+
+.home .content .textbox .collage img:nth-child(3) {
+  transform:  rotate(-3deg);
+}
+
+.home .content .textbox .collage img:nth-child(4) {
+  transform:  rotate(-7deg);
+}
+
+.home .content .textbox iframe.video {
+  height: 337px;
+  width: 100%;
 }
