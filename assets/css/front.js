@@ -91,6 +91,7 @@ export default StyleSheet.create({
     },
     "home content textbox collage img": {
         "width": 180,
+        "height": 180,
         "border": "5px solid #fff",
         "boxShadow": "0px 0px 30px #aaa",
         "transform": "rotate(5deg)"
