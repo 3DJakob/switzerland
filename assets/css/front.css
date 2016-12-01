@@ -72,6 +72,23 @@ a {
   margin-bottom: 0;
 }
 
+.home .content .textbox div.argument {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.home .content .textbox .argument i {
+  padding: 10px;
+  font-size: 20pt;
+  color: #33cc33;
+  margin-top: 15px;
+}
+
+.home .content .textbox .argument i.minus {
+  color: #ff6666;
+}
+
 .home .content .textbox p.ending {
   text-align: center;
 }
